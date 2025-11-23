@@ -1710,6 +1710,8 @@ class IMPRESIONES
                 printer_draw_text($handle, "golpes o rayones.",0,$linea);
 				$linea+=20;
 				printer_draw_text($handle, "-No hay cambio ni devolucion en ropa interior.",0,$linea);
+				$linea+=20;
+				printer_draw_text($handle, "-No hay cambio ni devolucion en productos con descuento.",0,$linea);
 				$linea+=30;
                 $font = printer_create_font("control", 9, 4, 400, false, false, false, 0);
                 printer_select_font($handle, $font);
@@ -5071,4 +5073,5 @@ class IMPRESIONES
         }
     }
 }
+
 ?>
