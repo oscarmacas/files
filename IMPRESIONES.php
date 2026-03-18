@@ -1740,7 +1740,7 @@ class IMPRESIONES
 				$linea+=20;
 				printer_draw_text($handle, "suspension del tratamiento escribiendo a:", 0,$linea);
 				$linea+=20;
-				printer_draw_text($handle, "mumusoconta@hotmail.com", 0,$linea);
+				printer_draw_text($handle, "mumusoecuador@hotmail.com", 0,$linea);
 				$linea+=30;
                 $font = printer_create_font("control", 9, 4, 400, false, false, false, 0);
                 printer_select_font($handle, $font);
