@@ -1687,7 +1687,7 @@ class IMPRESIONES
 				$linea+=35;
 				printer_draw_text($handle, "                 GRACIAS POR SU COMPRA",0,$linea);
 				$linea+=35;
-				printer_draw_text($handle, "TERMINOS Y  PARA CAMBIOS",0,$linea);
+				printer_draw_text($handle, "TERMINOS Y CONDICIONES PARA CAMBIOS",0,$linea);
 				$linea+=20;
 				printer_draw_text($handle, "-No realizamos reembolsos, se realizara nota de credito",0,$linea);
 				$linea+=20;
@@ -1697,7 +1697,7 @@ class IMPRESIONES
 				$linea+=20;
 				printer_draw_text($handle, "venta, no se recibira o cambiara el producto si no se",0,$linea);
 				$linea+=20;
-				printer_draw_text($handle, "encuentra con todos sus accesorios y con daño en su",0,$linea);
+				printer_draw_text($handle, "encuentra con todos sus accesorios y con dano en su",0,$linea);
 				$linea+=20;
 				printer_draw_text($handle, "empaque original.",0,$linea);
 				$linea+=20;
